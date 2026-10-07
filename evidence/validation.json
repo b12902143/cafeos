@@ -1,6 +1,6 @@
 {
   "preparedAt": "2026-10-05 Asia/Taipei",
-  "status": "prepared locally; no uploads or submissions",
+  "status": "GitHub source and unlisted YouTube video uploaded; competition and COOL not submitted",
   "entry": {
     "size": 1,
     "track": "Global Online Track",
@@ -9,10 +9,13 @@
   "proposal": {
     "pages": 17,
     "filename": "b12902143_CN_league.pdf",
-    "sizeBytes": 575135,
+    "sizeBytes": 575503,
     "visualQA": "17-page PDF rendered after cleanup; text bounds verified. Source footers, page numbers, corner branding and redundant captions removed. References, author details, link fields and substantive limits retained.",
-    "links": "GitHub and YouTube intentionally deferred by author.",
-    "revision": "Removed peripheral small print at the author's request."
+    "links": {
+      "github": "https://github.com/b12902143/cafeos",
+      "youtube": "https://youtu.be/J7bS7TjYap4"
+    },
+    "revision": "Real GitHub and YouTube links added to final slide; PDF links are clickable. Peripheral small print remains removed."
   },
   "film": {
     "durationSeconds": 166.016,
@@ -47,9 +50,23 @@
     "format": "Typeset copy of original paragraph text; original DOCX also included."
   },
   "pendingAtAuthorsRequest": [
-    "GitHub upload and final-slide link",
-    "Unlisted YouTube upload and final-slide link",
-    "Personal consent signature and identity/date fields",
+    "Personal review and signing of consent",
     "Competition and COOL submission"
-  ]
+  ],
+  "updatedAt": "2026-10-07T19:09:02+08:00",
+  "uploads": {
+    "github": {
+      "url": "https://github.com/b12902143/cafeos",
+      "visibility": "public",
+      "verified": true
+    },
+    "youtube": {
+      "url": "https://youtu.be/J7bS7TjYap4",
+      "visibility": "unlisted",
+      "hdProcessingComplete": true,
+      "copyrightCheck": "No issues found",
+      "verified": true
+    },
+    "verifiedAt": "2026-10-07T19:09:02+08:00"
+  }
 }
