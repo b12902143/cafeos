@@ -1,0 +1,55 @@
+{
+  "passed": 3,
+  "results": [
+    {
+      "text": "Two lattes, please. One dairy, and the second with oat milk.",
+      "model": "Qwen/Qwen3.8-27B",
+      "elapsedMs": 23066,
+      "actions": [
+        {
+          "type": "create",
+          "items": [
+            {
+              "product": "latte",
+              "size": "regular",
+              "temperature": "hot",
+              "milk": "dairy"
+            },
+            {
+              "product": "latte",
+              "size": "regular",
+              "temperature": "hot",
+              "milk": "oat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Actually, make only the second one iced.",
+      "model": "Qwen/Qwen3.8-27B",
+      "elapsedMs": 2100,
+      "actions": [
+        {
+          "type": "change",
+          "orderId": "C12",
+          "itemId": "C12-2",
+          "changes": {
+            "temperature": "iced"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Yes, send my order.",
+      "model": "Qwen/Qwen3.8-27B",
+      "elapsedMs": 1276,
+      "actions": [
+        {
+          "type": "confirm",
+          "orderId": "C12"
+        }
+      ]
+    }
+  ]
+}

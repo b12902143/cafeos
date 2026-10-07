@@ -1,0 +1,278 @@
+[
+  {
+    "file": "0-user.wav",
+    "authoredText": "Two lattes, please. One with dairy and one with oat milk.",
+    "transcription": "Two lattes, please. One with dairy and one with oat milk.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "0-assistant.wav",
+    "authoredText": "Of course. Two hot lattes: one dairy, one oat. Anything you would like to change?",
+    "transcription": "Of course, two hot lattes, one dairy, one oat. Anything you would like to change?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "1-user.wav",
+    "authoredText": "Actually, make the second one iced.",
+    "transcription": "Actually, make the second one iced.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "1-assistant.wav",
+    "authoredText": "The oat latte is now iced. Your dairy latte stays hot.",
+    "transcription": "The oat latte is now iced. Your dairy latte stays hot.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "2-user.wav",
+    "authoredText": "Perfect. Send the order.",
+    "transcription": "Perfect. Send the order.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "2-assistant.wav",
+    "authoredText": "You're all set, Aria. We'll call you when both coffees are ready.",
+    "transcription": "You're all set, Arya. We'll call you when both coffees are ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "3-user.wav",
+    "authoredText": "One large hot oat latte for me.",
+    "transcription": "One large hot oat latte for me.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "3-assistant.wav",
+    "authoredText": "One large hot oat latte. That is one hundred and ninety dollars. Shall I send it?",
+    "transcription": "One large hot oat latte. That is one hundred and ninety dollars. Shall I send it?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "4-user.wav",
+    "authoredText": "Yes, please.",
+    "transcription": "Yes, please.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "4-assistant.wav",
+    "authoredText": "Your order is in, Leo. We'll call you when it's ready.",
+    "transcription": "Your order is in, Leo. We'll call you when it's ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "5-user.wav",
+    "authoredText": "Can I have an iced oat latte?",
+    "transcription": "Can I have an iced oat latte?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "5-assistant.wav",
+    "authoredText": "Let me check that for you.",
+    "transcription": "Let me check that for you.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "6-user.wav",
+    "authoredText": "Send it, please.",
+    "transcription": "Send it, please.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "6-assistant.wav",
+    "authoredText": "Sorry, we're out of oat milk. Would you prefer dairy milk or an iced Americano?",
+    "transcription": "Sorry, we're out of oat milk. Would you prefer dairy milk or an iced americano?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "7-user.wav",
+    "authoredText": "An iced Americano sounds good.",
+    "transcription": "An iced americano sounds good.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "7-assistant.wav",
+    "authoredText": "Changed to an iced Americano. One hundred and twenty dollars.",
+    "transcription": "Changed to an iced Americano, one hundred and twenty dollars.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "8-user.wav",
+    "authoredText": "Yes. Send that.",
+    "transcription": "Yes, send that.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "8-assistant.wav",
+    "authoredText": "You're all set, Mia. We'll call you when your Americano is ready.",
+    "transcription": "You're all set, Mia. We'll call you when your americano is ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "9-user.wav",
+    "authoredText": "Start Aria\u2019s oat latte.",
+    "transcription": "Start Arya's oat latte.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "9-assistant.wav",
+    "authoredText": "Starting the iced oat latte on C12. Check the ticket, then extract a double espresso.",
+    "transcription": "Starting the iced oat latte on C12. Check the ticket, then extract a double espresso.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "10-user.wav",
+    "authoredText": "Sorry! Can my oat latte be hot after all?",
+    "transcription": "Sorry, can my oat latte be hot after all?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "10-assistant.wav",
+    "authoredText": "Let me check with Sam if he can still change it.",
+    "transcription": "Let me check with Sam if he can still change it.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "11-user.wav",
+    "authoredText": "Yes, I can make it hot.",
+    "transcription": "Yes, I can make it hot.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "11-assistant.wav",
+    "authoredText": "Got it, Sam. Make Aria's oat latte hot.",
+    "transcription": "Got it, Sam. Make Arya's oat latte hot.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "12-user.wav",
+    "authoredText": "Ticket checked. What is next?",
+    "transcription": "Ticket checked. What is next?",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "12-assistant.wav",
+    "authoredText": "Extract a double espresso according to the caf\u00e9 recipe. The milk on this ticket is oat, and the drink is hot.",
+    "transcription": "Extract a double espresso according to the cafe recipe. The milk on this ticket is oat, and the drink is hot.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "13-user.wav",
+    "authoredText": "Espresso is ready.",
+    "transcription": "Espresso is ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "13-assistant.wav",
+    "authoredText": "Now steam oat milk until silky, using the caf\u00e9 temperature target. Keep the dairy pitcher separate.",
+    "transcription": "Now steam oat milk until silky, using the caf\u00e9 temperature target. Keep the dairy pitcher separate.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "14-user.wav",
+    "authoredText": "The milk is steamed.",
+    "transcription": "The milk is steamed.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "14-assistant.wav",
+    "authoredText": "Pour the espresso, finish the drink, and check that the ticket still says hot oat latte.",
+    "transcription": "Pour the espresso, finish the drink, and check that the ticket still says hot oat latte.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "15-user.wav",
+    "authoredText": "Aria's oat latte is ready.",
+    "transcription": "Aria's oat latte is ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "15-assistant.wav",
+    "authoredText": "Oat latte done. Aria's dairy latte is next.",
+    "transcription": "Oat latte done. Arya's dairy latte is next.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "16-user.wav",
+    "authoredText": "Did my order go through? My screen froze.",
+    "transcription": "Did my order go through? My screen froze.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "16-assistant.wav",
+    "authoredText": "Yes, Leo. We have your order. You don't need to send it again.",
+    "transcription": "Yes, Leo. We have your order. You don't need to send it again.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "17-user.wav",
+    "authoredText": "Aria's dairy latte is ready too.",
+    "transcription": "Aria's dairy latte is ready too.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "17-assistant.wav",
+    "authoredText": "Both drinks are ready. Aria, your order is waiting for pickup.",
+    "transcription": "Both drinks are ready. Arya, your order is waiting for pickup.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "18-user.wav",
+    "authoredText": "Those are mine. Thank you!",
+    "transcription": "Those are mine. Thank you.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "18-assistant.wav",
+    "authoredText": "Enjoy your coffee, Aria.",
+    "transcription": "Enjoy your coffee, Arya.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "19-user.wav",
+    "authoredText": "Aria's picked up both coffees.",
+    "transcription": "Aria's picked up both coffees.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "19-assistant.wav",
+    "authoredText": "Thanks, Sam. Leo's hot oat latte is next.",
+    "transcription": "Thanks, Sam. Leo's hot oat latte is next.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "20-user.wav",
+    "authoredText": "Actually, I need to go. Please cancel my order.",
+    "transcription": "Actually, I need to go. Please cancel my order.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "20-assistant.wav",
+    "authoredText": "No problem, Leo. Your order is cancelled. Have a good day!",
+    "transcription": "No problem, Leo. Your order is cancelled. Have a good day.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "21-user.wav",
+    "authoredText": "Mia's Americano is ready.",
+    "transcription": "Mia's americano is ready.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "21-assistant.wav",
+    "authoredText": "Mia, your iced Americano is ready to pick up.",
+    "transcription": "Mia, your iced americano is ready to pick up.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "22-user.wav",
+    "authoredText": "Mia's picked up her coffee.",
+    "transcription": "Mia's picked up her coffee.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  },
+  {
+    "file": "22-assistant.wav",
+    "authoredText": "All done, Sam. No orders waiting.",
+    "transcription": "All done, Sam. No orders waiting.",
+    "asrModel": "Qwen/Qwen3-ASR-1.7B"
+  }
+]

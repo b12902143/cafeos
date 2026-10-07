@@ -1,0 +1,468 @@
+{
+  "fps": 30,
+  "duration": 28,
+  "width": 1920,
+  "height": 1080,
+  "events": {
+    "requested": 5.55,
+    "accepted": 9.8,
+    "checked": 15.2,
+    "steaming": 17.75
+  },
+  "snapshots": {
+    "initial": {
+      "revision": 4,
+      "order": {
+        "id": "C12",
+        "customer": "Aria",
+        "name": "Aria",
+        "version": 4,
+        "status": "confirmed",
+        "items": [
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "dairy",
+            "price": 150,
+            "id": "C12-1",
+            "status": "queued",
+            "step": 0
+          },
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "iced",
+            "milk": "oat",
+            "price": 170,
+            "id": "C12-2",
+            "status": "making",
+            "step": 1
+          }
+        ],
+        "createdAt": "2026-10-04T15:11:48.344Z",
+        "updatedAt": "2026-10-04T15:11:48.344Z"
+      },
+      "guide": {
+        "steps": [
+          "Check the ticket: iced oat Caffè latte.",
+          "Extract a double espresso according to the café recipe.",
+          "Add ice and cold oat milk to the cup.",
+          "Pour espresso, finish the drink, and check the ticket again."
+        ],
+        "index": 1,
+        "current": "Extract a double espresso according to the café recipe.",
+        "basis": "Store recipe + staff-reported progress"
+      },
+      "inventory": {
+        "espresso": {
+          "name": "Espresso",
+          "stock": 24,
+          "reserved": 2,
+          "available": 22
+        },
+        "dairy": {
+          "name": "Dairy milk",
+          "stock": 16,
+          "reserved": 1,
+          "available": 15
+        },
+        "oat": {
+          "name": "Oat milk",
+          "stock": 2,
+          "reserved": 1,
+          "available": 1
+        },
+        "matcha": {
+          "name": "Matcha",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        },
+        "tea": {
+          "name": "Black tea",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        }
+      }
+    },
+    "requested": {
+      "revision": 5,
+      "order": {
+        "id": "C12",
+        "customer": "Aria",
+        "name": "Aria",
+        "version": 5,
+        "status": "confirmed",
+        "items": [
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "dairy",
+            "price": 150,
+            "id": "C12-1",
+            "status": "queued",
+            "step": 0
+          },
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "iced",
+            "milk": "oat",
+            "price": 170,
+            "id": "C12-2",
+            "status": "making",
+            "step": 1,
+            "pendingChange": {
+              "product": "latte",
+              "size": "regular",
+              "temperature": "hot",
+              "milk": "oat",
+              "price": 170
+            }
+          }
+        ],
+        "createdAt": "2026-10-04T15:11:48.344Z",
+        "updatedAt": "2026-10-04T15:11:48.344Z"
+      },
+      "guide": {
+        "steps": [
+          "Check the ticket: iced oat Caffè latte.",
+          "Extract a double espresso according to the café recipe.",
+          "Add ice and cold oat milk to the cup.",
+          "Pour espresso, finish the drink, and check the ticket again."
+        ],
+        "index": 1,
+        "current": "Extract a double espresso according to the café recipe.",
+        "basis": "Store recipe + staff-reported progress"
+      },
+      "inventory": {
+        "espresso": {
+          "name": "Espresso",
+          "stock": 24,
+          "reserved": 2,
+          "available": 22
+        },
+        "dairy": {
+          "name": "Dairy milk",
+          "stock": 16,
+          "reserved": 1,
+          "available": 15
+        },
+        "oat": {
+          "name": "Oat milk",
+          "stock": 2,
+          "reserved": 1,
+          "available": 1
+        },
+        "matcha": {
+          "name": "Matcha",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        },
+        "tea": {
+          "name": "Black tea",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        }
+      }
+    },
+    "accepted": {
+      "revision": 6,
+      "order": {
+        "id": "C12",
+        "customer": "Aria",
+        "name": "Aria",
+        "version": 6,
+        "status": "confirmed",
+        "items": [
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "dairy",
+            "price": 150,
+            "id": "C12-1",
+            "status": "queued",
+            "step": 0
+          },
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "oat",
+            "price": 170,
+            "id": "C12-2",
+            "status": "making",
+            "step": 0
+          }
+        ],
+        "createdAt": "2026-10-04T15:11:48.344Z",
+        "updatedAt": "2026-10-04T15:11:48.344Z"
+      },
+      "guide": {
+        "steps": [
+          "Check the ticket: hot oat Caffè latte.",
+          "Extract a double espresso according to the café recipe.",
+          "Steam oat milk until silky; use the café temperature target.",
+          "Pour espresso, finish the drink, and check the ticket again."
+        ],
+        "index": 0,
+        "current": "Check the ticket: hot oat Caffè latte.",
+        "basis": "Store recipe + staff-reported progress"
+      },
+      "inventory": {
+        "espresso": {
+          "name": "Espresso",
+          "stock": 24,
+          "reserved": 2,
+          "available": 22
+        },
+        "dairy": {
+          "name": "Dairy milk",
+          "stock": 16,
+          "reserved": 1,
+          "available": 15
+        },
+        "oat": {
+          "name": "Oat milk",
+          "stock": 2,
+          "reserved": 1,
+          "available": 1
+        },
+        "matcha": {
+          "name": "Matcha",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        },
+        "tea": {
+          "name": "Black tea",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        }
+      }
+    },
+    "checked": {
+      "revision": 7,
+      "order": {
+        "id": "C12",
+        "customer": "Aria",
+        "name": "Aria",
+        "version": 7,
+        "status": "confirmed",
+        "items": [
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "dairy",
+            "price": 150,
+            "id": "C12-1",
+            "status": "queued",
+            "step": 0
+          },
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "oat",
+            "price": 170,
+            "id": "C12-2",
+            "status": "making",
+            "step": 1
+          }
+        ],
+        "createdAt": "2026-10-04T15:11:48.344Z",
+        "updatedAt": "2026-10-04T15:11:48.344Z"
+      },
+      "guide": {
+        "steps": [
+          "Check the ticket: hot oat Caffè latte.",
+          "Extract a double espresso according to the café recipe.",
+          "Steam oat milk until silky; use the café temperature target.",
+          "Pour espresso, finish the drink, and check the ticket again."
+        ],
+        "index": 1,
+        "current": "Extract a double espresso according to the café recipe.",
+        "basis": "Store recipe + staff-reported progress"
+      },
+      "inventory": {
+        "espresso": {
+          "name": "Espresso",
+          "stock": 24,
+          "reserved": 2,
+          "available": 22
+        },
+        "dairy": {
+          "name": "Dairy milk",
+          "stock": 16,
+          "reserved": 1,
+          "available": 15
+        },
+        "oat": {
+          "name": "Oat milk",
+          "stock": 2,
+          "reserved": 1,
+          "available": 1
+        },
+        "matcha": {
+          "name": "Matcha",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        },
+        "tea": {
+          "name": "Black tea",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        }
+      }
+    },
+    "steaming": {
+      "revision": 8,
+      "order": {
+        "id": "C12",
+        "customer": "Aria",
+        "name": "Aria",
+        "version": 8,
+        "status": "confirmed",
+        "items": [
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "dairy",
+            "price": 150,
+            "id": "C12-1",
+            "status": "queued",
+            "step": 0
+          },
+          {
+            "product": "latte",
+            "size": "regular",
+            "temperature": "hot",
+            "milk": "oat",
+            "price": 170,
+            "id": "C12-2",
+            "status": "making",
+            "step": 2
+          }
+        ],
+        "createdAt": "2026-10-04T15:11:48.344Z",
+        "updatedAt": "2026-10-04T15:11:48.344Z"
+      },
+      "guide": {
+        "steps": [
+          "Check the ticket: hot oat Caffè latte.",
+          "Extract a double espresso according to the café recipe.",
+          "Steam oat milk until silky; use the café temperature target.",
+          "Pour espresso, finish the drink, and check the ticket again."
+        ],
+        "index": 2,
+        "current": "Steam oat milk until silky; use the café temperature target.",
+        "basis": "Store recipe + staff-reported progress"
+      },
+      "inventory": {
+        "espresso": {
+          "name": "Espresso",
+          "stock": 24,
+          "reserved": 2,
+          "available": 22
+        },
+        "dairy": {
+          "name": "Dairy milk",
+          "stock": 16,
+          "reserved": 1,
+          "available": 15
+        },
+        "oat": {
+          "name": "Oat milk",
+          "stock": 2,
+          "reserved": 1,
+          "available": 1
+        },
+        "matcha": {
+          "name": "Matcha",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        },
+        "tea": {
+          "name": "Black tea",
+          "stock": 12,
+          "reserved": 0,
+          "available": 12
+        }
+      }
+    }
+  },
+  "audio": [
+    {
+      "file": "10-user.wav",
+      "text": "Sorry! Can my oat latte be hot after all?",
+      "voice": "Aria",
+      "durationSeconds": 3.52,
+      "sha256": "1498c56e6772771dfc28dd8bbedbdd0f5aefe584538cb4a9306d7b4eccb15a2c",
+      "start": 2,
+      "speaker": "Aria",
+      "role": "Customer",
+      "renderFile": "scene-sample/10-user.wav",
+      "renderSha256": "44dd5f573b3dd9d6057014b423333ab9b368b979f4b018e661990d5f7f59c96f"
+    },
+    {
+      "file": "11-user.wav",
+      "text": "I can do that. Accept the change.",
+      "voice": "barista",
+      "durationSeconds": 2.08,
+      "sha256": "fea190d407ea184e18b169e595f08becefda11a1260048da068160bceea2e45d",
+      "start": 7.5,
+      "speaker": "Sam",
+      "role": "Barista",
+      "renderFile": "scene-sample/11-user.wav",
+      "renderSha256": "14c2afbd192477445fad8e5aecaa387e1a2753907c58cec4d94004460866f42d"
+    },
+    {
+      "file": "11-assistant.wav",
+      "text": "Accepted. The ticket and recipe now say hot oat latte.",
+      "voice": "assistant",
+      "durationSeconds": 4.64,
+      "sha256": "d7b54dfad16338adc95f591047555123740727d326e94f78807df7f18afd74e3",
+      "start": 10.25,
+      "speaker": "CafeOS",
+      "role": "Voice assistant",
+      "renderFile": "scene-sample/11-assistant.wav",
+      "renderSha256": "d463825e788b064f13fb2f1e0c065c8efe52412409f551862dbdee81377a99dc"
+    },
+    {
+      "file": "13-user.wav",
+      "text": "Espresso is ready.",
+      "voice": "barista",
+      "durationSeconds": 1.76,
+      "sha256": "aa0fa65ba9c9c77953b37b47013d94937c38f1a598d42702f17e2ad96481ad44",
+      "start": 15.6,
+      "speaker": "Sam",
+      "role": "Barista",
+      "renderFile": "scene-sample/13-user.wav",
+      "renderSha256": "d4a26512708d42120ab16a54d8a8df6beb7c6c372f359cd62b06920e88c242e7"
+    },
+    {
+      "file": "13-assistant.wav",
+      "text": "Now steam oat milk until silky, using the café temperature target. Keep the dairy pitcher separate.",
+      "voice": "assistant",
+      "durationSeconds": 6.32,
+      "sha256": "dbd3be64cfce41fa6842c3d180a6ca3d8f1af3cfb07eda122589f6ae40f7bcec",
+      "start": 18,
+      "speaker": "CafeOS",
+      "role": "Voice assistant",
+      "renderFile": "scene-sample/13-assistant.wav",
+      "renderSha256": "16d36d9ad4905385666b5d2d18d6d2814c1bea1ec591999e8a573d63f66e7fe3"
+    }
+  ]
+}

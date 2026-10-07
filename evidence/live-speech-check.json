@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-04T16:39:56.853Z",
+  "path": "Node /api/speak -> SSH tunnel -> remote Qwen3-TTS -> WAV response",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "source": "Qwen3-TTS · remote GPU",
+  "status": 200,
+  "audioBytes": 218924,
+  "sampleRate": 24000,
+  "channels": 1,
+  "scope": "One end-to-end speech request; not a physical microphone or latency benchmark."
+}

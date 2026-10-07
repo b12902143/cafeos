@@ -1,0 +1,23 @@
+{
+  "name": "cafeos-voice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CafeOS Voice: real café transactions and synchronization, remote GPU inference, and a curated presentation mode.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "audio:script": "node scripts/export-demo.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
+}

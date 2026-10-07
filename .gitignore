@@ -1,0 +1,8 @@
+node_modules/
+film/node_modules/
+/data/
+.env
+.env.*
+/artifacts/
+/submission/
+.DS_Store

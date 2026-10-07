@@ -1,0 +1,22 @@
+
+> cafeos-voice@0.1.0 test
+> node --test test/*.test.js
+
+✔ a batch checks the original version once and commits both edits atomically (1.89275ms)
+✔ insufficient stock at staff acceptance preserves the original drink and pending change (1.26725ms)
+✔ two real clients receive the same committed revision; retry survives restart (23.210916ms)
+✔ confirmation reserves stock; third customer cannot oversell (2.562334ms)
+✔ atomic actions roll back, including next order id (0.104458ms)
+✔ idempotent retry and conflicting reuse (0.126916ms)
+✔ late change needs staff acceptance and updates inventory as a delta (0.374625ms)
+✔ customer ownership, staff restriction, and stale versions (0.157ms)
+✔ handoff waits for every cup, archives the order, and never consumes stock twice (0.374ms)
+✔ full authored demo is valid and includes a genuine rejected transaction and duplicate (0.819834ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.306333

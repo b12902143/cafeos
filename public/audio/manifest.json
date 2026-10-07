@@ -1,0 +1,478 @@
+{
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "referenceModel": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "license": "Apache-2.0",
+  "host": "remote GPU",
+  "textSource": "Authored dialogue supplied directly; no model generated the script.",
+  "referenceOrigin": "Original synthetic voices generated from written personas, without real-person or Breeze audio references.",
+  "voices": {
+    "assistant": "A warm, clear adult female voice with a neutral American English accent. A helpful cafe host, calm and confident. Brisk natural conversation with clear consonants. No dramatic pauses.",
+    "Aria": "A relaxed young adult woman speaking clear American English. Friendly, casual, with a slightly husky lower female voice. Conversational and brisk, not a commercial narrator.",
+    "Leo": "A young adult man speaking neutral American English, with a mellow low voice. Relaxed and friendly. Brisk conversational delivery with clear consonants.",
+    "Mia": "A young adult woman with a light, bright, higher voice and a clear American English accent. Curious and friendly, conversational and brisk.",
+    "barista": "An adult male barista with a clear, resonant American English voice. Focused, confident, speaking to a colleague at a brisk natural pace."
+  },
+  "files": [
+    {
+      "file": "0-user.wav",
+      "text": "Two lattes, please. One with dairy and one with oat milk.",
+      "voice": "Aria",
+      "durationSeconds": 3.56,
+      "sha256": "df2d5f4b66b4a412412da327b9617f8181bb9926632ca48e8a786598a4b25a65",
+      "sourceSha256": "1de53ac6e4e73bf3762373f7a6d6a6e24d58bcf14b9155937209b3b7edaff412",
+      "trimStartSeconds": 0.36,
+      "trimEndSeconds": 3.92
+    },
+    {
+      "file": "0-assistant.wav",
+      "text": "Of course. Two hot lattes: one dairy, one oat. Anything you would like to change?",
+      "voice": "assistant",
+      "durationSeconds": 5.42,
+      "sha256": "e5a06eb9c3c92000d0a19602103470c13e293e26bddd44801662a80d850d37c9",
+      "sourceSha256": "5e2790fe263d0659dcb86c680a9757e9aa41a7cd5d8f34fd021c7e209959b2a6",
+      "trimStartSeconds": 0.72,
+      "trimEndSeconds": 6.14
+    },
+    {
+      "file": "1-user.wav",
+      "text": "Actually, make the second one iced.",
+      "voice": "Aria",
+      "durationSeconds": 1.76,
+      "sha256": "439f7e51fdec90f71052e5666f6f87fdd8cb78e6a77ee8ade22775291ddd717a",
+      "sourceSha256": "312d277f8a6f57c6e41057dffcd894be936a78ec2651e1da7e0efad65124cc9d",
+      "trimStartSeconds": 0,
+      "trimEndSeconds": 1.76
+    },
+    {
+      "file": "1-assistant.wav",
+      "text": "The oat latte is now iced. Your dairy latte stays hot.",
+      "voice": "assistant",
+      "durationSeconds": 3.54,
+      "sha256": "65ce917b7fe998e7591989a73558ce0c4295bd2cef852276bcc5c45aa3aa113e",
+      "sourceSha256": "649aec8e750cfa3ca67cb002362f530f1f54bdb442db687230396727ae7b88dd",
+      "trimStartSeconds": 0.62,
+      "trimEndSeconds": 4.16
+    },
+    {
+      "file": "2-user.wav",
+      "text": "Perfect. Send the order.",
+      "voice": "Aria",
+      "durationSeconds": 1.78,
+      "sha256": "9423365fa8ff60f5f7468a53bf7abc8e2828bdbb4804b01946385f0df6759f45",
+      "sourceSha256": "7e42e5e289579d1ef01f70129ff860349bbe9bd1a21d7fd81ca878685342dda7",
+      "trimStartSeconds": 0.58,
+      "trimEndSeconds": 2.36
+    },
+    {
+      "file": "2-assistant.wav",
+      "text": "You're all set, Aria. We'll call you when both coffees are ready.",
+      "voice": "assistant",
+      "durationSeconds": 3.42,
+      "sha256": "aaa68d25cf656fe877f4a15a264338db95e0c3550b9a38f5b5d369310e8971e0",
+      "sourceSha256": "c204c26896dbb0b5c073d46ba56a944d1fbcfaba7d1acd365a7a84824cb4c18c",
+      "trimStartSeconds": 0.6,
+      "trimEndSeconds": 4.02
+    },
+    {
+      "file": "3-user.wav",
+      "text": "One large hot oat latte for me.",
+      "voice": "Leo",
+      "durationSeconds": 2.22,
+      "sha256": "7b1d8bd8d4ae72d0c565f56e2168e041215cee50943b4fc3e45ab2e8b2b8fca3",
+      "sourceSha256": "6e5eb0a1a24622beef8e3c46aa8f5092ef02a8974e5dd56635acd36d8f23541f",
+      "trimStartSeconds": 0.46,
+      "trimEndSeconds": 2.68
+    },
+    {
+      "file": "3-assistant.wav",
+      "text": "One large hot oat latte. That is one hundred and ninety dollars. Shall I send it?",
+      "voice": "assistant",
+      "durationSeconds": 4.7,
+      "sha256": "e20394b25449b207ea231673e2a86104e90106772b04e414aeb5eba6fb3d7e0c",
+      "sourceSha256": "15b392bc15778f0f17e99b712d179c4fe424596180652e7f3eb03845cec02689",
+      "trimStartSeconds": 0.7,
+      "trimEndSeconds": 5.4
+    },
+    {
+      "file": "4-user.wav",
+      "text": "Yes, please.",
+      "voice": "Leo",
+      "durationSeconds": 0.98,
+      "sha256": "b1414fddadc3225595e165ea019cba485264f9bdc0a191a283b144c074b639c0",
+      "sourceSha256": "0dd5c89969e9537a3099342ee53b0cadf079ca1939f974da11dca54b280e81fc",
+      "trimStartSeconds": 0.38,
+      "trimEndSeconds": 1.36
+    },
+    {
+      "file": "4-assistant.wav",
+      "text": "Your order is in, Leo. We'll call you when it's ready.",
+      "voice": "assistant",
+      "durationSeconds": 3.22,
+      "sha256": "b4e0d4ded68f8d5d9c3f6ff1c1084582510022fd256bb953e1b5caa41d90fc30",
+      "sourceSha256": "40c3f2da7042df06ee083de52aabeca5479d4d7ffcf83511a2895251e7624ac3",
+      "trimStartSeconds": 0.62,
+      "trimEndSeconds": 3.84
+    },
+    {
+      "file": "5-user.wav",
+      "text": "Can I have an iced oat latte?",
+      "voice": "Mia",
+      "durationSeconds": 1.9,
+      "sha256": "63afbfc5997b12c5bd14265803777bcecb0d877800b3912d20c14cc9b22c1fc5",
+      "sourceSha256": "667371b7e5b81ade30e5d266913749992edf64279268844f1f5539ada1c06391",
+      "trimStartSeconds": 0.24,
+      "trimEndSeconds": 2.14
+    },
+    {
+      "file": "5-assistant.wav",
+      "text": "Let me check that for you.",
+      "voice": "assistant",
+      "durationSeconds": 1.32,
+      "sha256": "099c0dbbc38706b60877a4002a7301544bfeaffdf867e35424ec231e8cd48da4",
+      "sourceSha256": "971db536a3ab4a5faccdfa6e0be42817cc13f750eea9da847424339d27719c87",
+      "trimStartSeconds": 0.58,
+      "trimEndSeconds": 1.9
+    },
+    {
+      "file": "6-user.wav",
+      "text": "Send it, please.",
+      "voice": "Mia",
+      "durationSeconds": 0.98,
+      "sha256": "ee62177765063b6df8c2dfd66f6e7069bce837936324583f1028d9c3a30e36ff",
+      "sourceSha256": "8a17d54038d03f1feb3fa3f389d99cd4fec5694213de2ed1eb62a0cb9baaa5e9",
+      "trimStartSeconds": 0.38,
+      "trimEndSeconds": 1.36
+    },
+    {
+      "file": "6-assistant.wav",
+      "text": "Sorry, we're out of oat milk. Would you prefer dairy milk or an iced Americano?",
+      "voice": "assistant",
+      "durationSeconds": 4.68,
+      "sha256": "e32a765d6f06e73bcbda5e09f6056835d0b2fe338829fa0131a0baac54716765",
+      "sourceSha256": "09eebcae683e203e1555e6a99af40a79d10de8fa8757955f81eb37e199c3489b",
+      "trimStartSeconds": 0.88,
+      "trimEndSeconds": 5.56
+    },
+    {
+      "file": "7-user.wav",
+      "text": "An iced Americano sounds good.",
+      "voice": "Mia",
+      "durationSeconds": 1.86,
+      "sha256": "d49f50e46c0e1a82c7cc730e57d57472085b0350d13e494852bb90be82b91387",
+      "sourceSha256": "6a019780f26b108c1265399af426503ef9bc404f349880b24e3a966e7b35c66b",
+      "trimStartSeconds": 0.3,
+      "trimEndSeconds": 2.16
+    },
+    {
+      "file": "7-assistant.wav",
+      "text": "Changed to an iced Americano. One hundred and twenty dollars.",
+      "voice": "assistant",
+      "durationSeconds": 3.44,
+      "sha256": "8474fa4cc15a7ab7b767aad75e801dd4d2fe19abcb023ae0d0f70697bd1e4dbd",
+      "sourceSha256": "ee8aa21db5c3e0d4c6a9c8cd8ff161e2c3ddc24b4bff1575cbe8226f60c1df93",
+      "trimStartSeconds": 0.56,
+      "trimEndSeconds": 4.0
+    },
+    {
+      "file": "8-user.wav",
+      "text": "Yes. Send that.",
+      "voice": "Mia",
+      "durationSeconds": 1.72,
+      "sha256": "8d0912e1749f74736bd3e1b760a5f1e025670e594329afa3f593abf0914b33d6",
+      "sourceSha256": "d6b89c2f6f2eda5a569498dee9ecc101c0e5971144a6c63a1a56759da9191800",
+      "trimStartSeconds": 0.54,
+      "trimEndSeconds": 2.26
+    },
+    {
+      "file": "8-assistant.wav",
+      "text": "You're all set, Mia. We'll call you when your Americano is ready.",
+      "voice": "assistant",
+      "durationSeconds": 3.76,
+      "sha256": "cbf9dfae559cb588e597513a88b3124e8ed09d788571fb6591fd8c827d7308a6",
+      "sourceSha256": "0b07136b0f9d9493cea00a14fd6d485bcbc171619ed1ed2c3bf990048f091973",
+      "trimStartSeconds": 0.72,
+      "trimEndSeconds": 4.48
+    },
+    {
+      "file": "9-user.wav",
+      "text": "Start Aria\u2019s oat latte.",
+      "voice": "barista",
+      "durationSeconds": 1.64,
+      "sha256": "d6d266a3fe221a809b0b77ccb4943a7e39e0f0cda59052dca816d0b77ca2fc10",
+      "sourceSha256": "82a9f5cccdbbd4d90440bf7ffd7b51d096229d0427d2590c926db9f750d4044e",
+      "trimStartSeconds": 0.8,
+      "trimEndSeconds": 2.44
+    },
+    {
+      "file": "9-assistant.wav",
+      "text": "Starting the iced oat latte on C12. Check the ticket, then extract a double espresso.",
+      "voice": "assistant",
+      "durationSeconds": 5.06,
+      "sha256": "e4892599eb00e29c024c051b6ea0a78615be5a749e4f050a2f7c5a708541bee6",
+      "sourceSha256": "0a2395399bb9a45c200f12eb45398d98b2e8ba1f2c5e0f0eacdebeca5d5a4cd4",
+      "trimStartSeconds": 0.54,
+      "trimEndSeconds": 5.6
+    },
+    {
+      "file": "10-user.wav",
+      "text": "Sorry! Can my oat latte be hot after all?",
+      "voice": "Aria",
+      "durationSeconds": 2.88,
+      "sha256": "b5c5377408d94e8733d25e9e938277e4f23860e5c178b62156c61cf9359dffc6",
+      "sourceSha256": "6e63f175eca9e62d70561fd002bb06d29126892f579766efdb02611bd49a89e1",
+      "trimStartSeconds": 0.32,
+      "trimEndSeconds": 3.2
+    },
+    {
+      "file": "10-assistant.wav",
+      "text": "Let me check with Sam if he can still change it.",
+      "voice": "assistant",
+      "durationSeconds": 2.28,
+      "sha256": "2b4d763917bda77dcb97910c3efc12498e61e6fe710405910925f2ae85bb279d",
+      "sourceSha256": "3fd73d274ba5d0a77747af23737b2e3fc4de58139ab1d3c81f7ced914bbc6970",
+      "trimStartSeconds": 0.44,
+      "trimEndSeconds": 2.72
+    },
+    {
+      "file": "11-user.wav",
+      "text": "Yes, I can make it hot.",
+      "voice": "barista",
+      "durationSeconds": 1.82,
+      "sha256": "778c0b019a7ba62f28ac70dfaa9ed6b8fdfc3664039dc43b69409c53324047ad",
+      "sourceSha256": "60f7783597342c6727180beeb69525784dc5594a1fc95249bb5754487d51afaf",
+      "trimStartSeconds": 0.34,
+      "trimEndSeconds": 2.16
+    },
+    {
+      "file": "11-assistant.wav",
+      "text": "Got it, Sam. Make Aria's oat latte hot.",
+      "voice": "assistant",
+      "durationSeconds": 3.06,
+      "sha256": "39cd35d2471a8e01b07e1e1abfc8feaae349c64ff589be3bf866fb9a816e0bfd",
+      "sourceSha256": "8c66cc5494f26cea2ef5bee5d9b624324218203be66658c43bdc449d21e9ee95",
+      "trimStartSeconds": 0.76,
+      "trimEndSeconds": 3.82
+    },
+    {
+      "file": "12-user.wav",
+      "text": "Ticket checked. What is next?",
+      "voice": "barista",
+      "durationSeconds": 1.84,
+      "sha256": "e90d30878556223fc3fd46b776ff13a6fe57b159750070c03a07f7788cbee70e",
+      "sourceSha256": "291bfb80d07e814dacfc8e96e002f08dcd070c06c7d0c50200a77e61f7db690b",
+      "trimStartSeconds": 0.64,
+      "trimEndSeconds": 2.48
+    },
+    {
+      "file": "12-assistant.wav",
+      "text": "Extract a double espresso according to the caf\u00e9 recipe. The milk on this ticket is oat, and the drink is hot.",
+      "voice": "assistant",
+      "durationSeconds": 6.14,
+      "sha256": "1395ceddeab55070aef82e62dd0850bad451dd7dedf71d49c523176f14647532",
+      "sourceSha256": "b8f8da77853e2478eb96264a2c65cf5878235f44f23ac068a39078e29e26dca8",
+      "trimStartSeconds": 0.66,
+      "trimEndSeconds": 6.8
+    },
+    {
+      "file": "13-user.wav",
+      "text": "Espresso is ready.",
+      "voice": "barista",
+      "durationSeconds": 1.12,
+      "sha256": "8dc22e724f19121f0dfea76923add11791ab3aba885ac45c2b2f1e26397d80b9",
+      "sourceSha256": "2f64a721c67146101ca524c4b33866b55c303b96ad5e1013c7972c40b97789fb",
+      "trimStartSeconds": 0.02,
+      "trimEndSeconds": 1.14
+    },
+    {
+      "file": "13-assistant.wav",
+      "text": "Now steam oat milk until silky, using the caf\u00e9 temperature target. Keep the dairy pitcher separate.",
+      "voice": "assistant",
+      "durationSeconds": 5.8,
+      "sha256": "f657b4bc24ddf25112eaf5e5a539b26df89575cfefed97a575a54700a8c2609b",
+      "sourceSha256": "abf0821ae590517bbd7efcf7b4abcf5fac56b72f1ee0a5ff566ea8f2bcff0ff2",
+      "trimStartSeconds": 0.6,
+      "trimEndSeconds": 6.4
+    },
+    {
+      "file": "14-user.wav",
+      "text": "The milk is steamed.",
+      "voice": "barista",
+      "durationSeconds": 1.04,
+      "sha256": "dfad7c1404fc72d69e34c2dff884d55ef26b53154bc0f4005d1d9ab3bd2c331f",
+      "sourceSha256": "3ee73ae92ea94daff62b428da59d800f6c17238ea27f96b570a3ddd9a638b970",
+      "trimStartSeconds": 0.4,
+      "trimEndSeconds": 1.44
+    },
+    {
+      "file": "14-assistant.wav",
+      "text": "Pour the espresso, finish the drink, and check that the ticket still says hot oat latte.",
+      "voice": "assistant",
+      "durationSeconds": 4.48,
+      "sha256": "031993fef9d60ea3d4daf19cc87995da45c74e102f59147e4b53e9ca2633d538",
+      "sourceSha256": "bd976885394d6272353ee86499ba23e9c89265bfcc49ed5c3fa4aacf06af4aa4",
+      "trimStartSeconds": 0.62,
+      "trimEndSeconds": 5.1
+    },
+    {
+      "file": "15-user.wav",
+      "text": "Aria's oat latte is ready.",
+      "voice": "barista",
+      "durationSeconds": 2.0,
+      "sha256": "00df75c65c202f0307f7ac1a11d81d1f959eb125ecc7798b7a58a8db2441b6da",
+      "sourceSha256": "aa01f728411eaae0a91373d6dafb86a3b7754cb07731608b1963b7c206d0b66e",
+      "trimStartSeconds": 0.8,
+      "trimEndSeconds": 2.8
+    },
+    {
+      "file": "15-assistant.wav",
+      "text": "Oat latte done. Aria's dairy latte is next.",
+      "voice": "assistant",
+      "durationSeconds": 3.36,
+      "sha256": "6c80e7739753a838532dc24945912f9efdc1582448ad3ba8d87eccba2c151b51",
+      "sourceSha256": "80d36638e89cb9f1a03272b19c8c37f691ca089292513394fddbcd161ebd25de",
+      "trimStartSeconds": 0.62,
+      "trimEndSeconds": 3.98
+    },
+    {
+      "file": "16-user.wav",
+      "text": "Did my order go through? My screen froze.",
+      "voice": "Leo",
+      "durationSeconds": 3.18,
+      "sha256": "ad9a2d6576758e78455162578709ec9437b24091b9ad42b4f79d7343c4e0a509",
+      "sourceSha256": "6512ab9878500bb85fca95c88b55b4fadb73c10f046390717863ef4ee7fed156",
+      "trimStartSeconds": 0.36,
+      "trimEndSeconds": 3.54
+    },
+    {
+      "file": "16-assistant.wav",
+      "text": "Yes, Leo. We have your order. You don't need to send it again.",
+      "voice": "assistant",
+      "durationSeconds": 3.68,
+      "sha256": "2b4762ffe2bb90b400377be4e27436d60334dd936106b7f8b41ccc85f6083a03",
+      "sourceSha256": "f320fdbecb27fd47248b2166e6ac4bc568c332e70d8d790ea123af7c382d61f1",
+      "trimStartSeconds": 0.56,
+      "trimEndSeconds": 4.24
+    },
+    {
+      "file": "17-user.wav",
+      "text": "Aria's dairy latte is ready too.",
+      "voice": "barista",
+      "durationSeconds": 2.1,
+      "sha256": "13b3cfd553138383a33b5655d4c9c7706437ea62ec58c6dbaa8e20d2fd794751",
+      "sourceSha256": "643924272b1f902c8c93e121a1779d1aca5b85fb8152b4eeab09adcf68e0c7c7",
+      "trimStartSeconds": 0.3,
+      "trimEndSeconds": 2.4
+    },
+    {
+      "file": "17-assistant.wav",
+      "text": "Both drinks are ready. Aria, your order is waiting for pickup.",
+      "voice": "assistant",
+      "durationSeconds": 3.56,
+      "sha256": "7b0c010e6f5b38672a52438a10d34fb7dd49f34152196c7ced6c3d5ac64fc0b3",
+      "sourceSha256": "2c16fe658118db1eef846a9ccf8290d82f0ec90db3d8ff40c924a82bafe059f2",
+      "trimStartSeconds": 0.92,
+      "trimEndSeconds": 4.48
+    },
+    {
+      "file": "18-user.wav",
+      "text": "Those are mine. Thank you!",
+      "voice": "Aria",
+      "durationSeconds": 1.86,
+      "sha256": "d3380ef719347b2cc05cdd14fe7f3835cfc88e81604c915df3b9d45b4eb251cc",
+      "sourceSha256": "d2f8d4a0f0543be571b5422e7de8ddcf9ed55428d3a526b74ebc3aebed3d78d6",
+      "trimStartSeconds": 0.14,
+      "trimEndSeconds": 2.0
+    },
+    {
+      "file": "18-assistant.wav",
+      "text": "Enjoy your coffee, Aria.",
+      "voice": "assistant",
+      "durationSeconds": 1.42,
+      "sha256": "b5a697311910caa615e6aef2596b5fffb6884edebf4be0ae04cfc4d1212b1ae0",
+      "sourceSha256": "0c0c50d275ea58b5d9c1e00cbe3fb994e24870fb58060bf3db64c2d30fa0c951",
+      "trimStartSeconds": 0.42,
+      "trimEndSeconds": 1.84
+    },
+    {
+      "file": "19-user.wav",
+      "text": "Aria's picked up both coffees.",
+      "voice": "barista",
+      "durationSeconds": 1.68,
+      "sha256": "f23f5076bae4b57ce0794ec4bb235b917766e8d84dc0a2073b4377878a20d7f7",
+      "sourceSha256": "44a4768e82a54f1f6d9fe137332c2a0be3def885b57090ac92b669a3d2c44182",
+      "trimStartSeconds": 0.24,
+      "trimEndSeconds": 1.92
+    },
+    {
+      "file": "19-assistant.wav",
+      "text": "Thanks, Sam. Leo's hot oat latte is next.",
+      "voice": "assistant",
+      "durationSeconds": 2.76,
+      "sha256": "c685915568ed449fc9d7628968053007339806505a4f008ea87e3e627d77a79e",
+      "sourceSha256": "985a61b0c0e8214c03cc6710bd5c2dc70eac631b327291a97c9dfc6d768d0d5c",
+      "trimStartSeconds": 0.04,
+      "trimEndSeconds": 2.8
+    },
+    {
+      "file": "20-user.wav",
+      "text": "Actually, I need to go. Please cancel my order.",
+      "voice": "Leo",
+      "durationSeconds": 3.04,
+      "sha256": "30b304512cac4fc698e9378f498c5ade188b9b0b9d20abe91de19a2d885b8a79",
+      "sourceSha256": "997fa3df91505fe58880f08fd138bf58a5210dc86f5bdf8534366f9202746b7b",
+      "trimStartSeconds": 0.4,
+      "trimEndSeconds": 3.44
+    },
+    {
+      "file": "20-assistant.wav",
+      "text": "No problem, Leo. Your order is cancelled. Have a good day!",
+      "voice": "assistant",
+      "durationSeconds": 3.74,
+      "sha256": "57af37026381cf3f6fc0a6764c18114e06cf7340b2ed1d35fc113376f8ae8f12",
+      "sourceSha256": "1602f8910cf0ee003d652ccd163eda66a9f1b994a0233c63302d122aeb4c59c6",
+      "trimStartSeconds": 0.74,
+      "trimEndSeconds": 4.48
+    },
+    {
+      "file": "21-user.wav",
+      "text": "Mia's Americano is ready.",
+      "voice": "barista",
+      "durationSeconds": 1.38,
+      "sha256": "40faf59e9e5c39f607a4b2eb5801c850252fb130044af1d7d476abc0409ffb73",
+      "sourceSha256": "ea7f18d1090186e591750d99e08dd9936fd89e1ce69f82ab1f1d4a4e542d46b2",
+      "trimStartSeconds": 0.46,
+      "trimEndSeconds": 1.84
+    },
+    {
+      "file": "21-assistant.wav",
+      "text": "Mia, your iced Americano is ready to pick up.",
+      "voice": "assistant",
+      "durationSeconds": 2.54,
+      "sha256": "234e8b13d1ff3d44b483fe6e74f21575e998860d051cb76945eace8a3c2d1c1a",
+      "sourceSha256": "d9556ec51888f202b7248d8f15a67805eed25f0fc31c0dcf14da10f60eb86dc9",
+      "trimStartSeconds": 0.46,
+      "trimEndSeconds": 3.0
+    },
+    {
+      "file": "22-user.wav",
+      "text": "Mia's picked up her coffee.",
+      "voice": "barista",
+      "durationSeconds": 1.32,
+      "sha256": "6747f007d018fb25c924077e73c603d7b10f1e1c889f9ed4f447e197c4f49a09",
+      "sourceSha256": "81c86c57ce368bd771fbd38fadbe4c7d247ad9725b4c28d8406910feed4eafea",
+      "trimStartSeconds": 0.36,
+      "trimEndSeconds": 1.68
+    },
+    {
+      "file": "22-assistant.wav",
+      "text": "All done, Sam. No orders waiting.",
+      "voice": "assistant",
+      "durationSeconds": 2.1,
+      "sha256": "bf019055c1769a6f79297ca2cd0d8ee5ff71e03c5fc7923933eb902f6f155afa",
+      "sourceSha256": "d81b24f45be573bce3e4629641d2424508da87047b647a8820b27a2c3bba4875",
+      "trimStartSeconds": 0.46,
+      "trimEndSeconds": 2.56
+    }
+  ],
+  "processing": "Outer silence trimmed with 80 ms start and 120 ms end padding; no speed or pitch change. Film-used clips are loudness normalized for browser playback."
+}

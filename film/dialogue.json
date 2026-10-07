@@ -1,0 +1,186 @@
+[
+  {
+    "index": 0,
+    "voice": "Aria",
+    "user": "Two lattes, please. One with dairy and one with oat milk.",
+    "assistant": "Of course. Two hot lattes: one dairy, one oat. Anything you would like to change?",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 1,
+    "voice": "Aria",
+    "user": "Actually, make the second one iced.",
+    "assistant": "The oat latte is now iced. Your dairy latte stays hot.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 2,
+    "voice": "Aria",
+    "user": "Perfect. Send the order.",
+    "assistant": "You're all set, Aria. We'll call you when both coffees are ready.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 3,
+    "voice": "Leo",
+    "user": "One large hot oat latte for me.",
+    "assistant": "One large hot oat latte. That is one hundred and ninety dollars. Shall I send it?",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Leo"
+  },
+  {
+    "index": 4,
+    "voice": "Leo",
+    "user": "Yes, please.",
+    "assistant": "Your order is in, Leo. We'll call you when it's ready.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Leo"
+  },
+  {
+    "index": 5,
+    "voice": "Mia",
+    "user": "Can I have an iced oat latte?",
+    "assistant": "Let me check that for you.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Mia"
+  },
+  {
+    "index": 6,
+    "voice": "Mia",
+    "user": "Send it, please.",
+    "assistant": "Sorry, we're out of oat milk. Would you prefer dairy milk or an iced Americano?",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Mia"
+  },
+  {
+    "index": 7,
+    "voice": "Mia",
+    "user": "An iced Americano sounds good.",
+    "assistant": "Changed to an iced Americano. One hundred and twenty dollars.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Mia"
+  },
+  {
+    "index": 8,
+    "voice": "Mia",
+    "user": "Yes. Send that.",
+    "assistant": "You're all set, Mia. We'll call you when your Americano is ready.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Mia"
+  },
+  {
+    "index": 9,
+    "voice": "barista",
+    "user": "Start Aria’s oat latte.",
+    "assistant": "Starting the iced oat latte on C12. Check the ticket, then extract a double espresso.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 10,
+    "voice": "Aria",
+    "user": "Sorry! Can my oat latte be hot after all?",
+    "assistant": "Let me check with Sam if he can still change it.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 11,
+    "voice": "barista",
+    "user": "Yes, I can make it hot.",
+    "assistant": "Got it, Sam. Make Aria's oat latte hot.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 12,
+    "voice": "barista",
+    "user": "Ticket checked. What is next?",
+    "assistant": "Extract a double espresso according to the café recipe. The milk on this ticket is oat, and the drink is hot.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 13,
+    "voice": "barista",
+    "user": "Espresso is ready.",
+    "assistant": "Now steam oat milk until silky, using the café temperature target. Keep the dairy pitcher separate.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 14,
+    "voice": "barista",
+    "user": "The milk is steamed.",
+    "assistant": "Pour the espresso, finish the drink, and check that the ticket still says hot oat latte.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 15,
+    "voice": "barista",
+    "user": "Aria's oat latte is ready.",
+    "assistant": "Oat latte done. Aria's dairy latte is next.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 16,
+    "voice": "Leo",
+    "user": "Did my order go through? My screen froze.",
+    "assistant": "Yes, Leo. We have your order. You don't need to send it again.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Leo"
+  },
+  {
+    "index": 17,
+    "voice": "barista",
+    "user": "Aria's dairy latte is ready too.",
+    "assistant": "Both drinks are ready. Aria, your order is waiting for pickup.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 18,
+    "voice": "Aria",
+    "user": "Those are mine. Thank you!",
+    "assistant": "Enjoy your coffee, Aria.",
+    "userAudience": "Sam",
+    "assistantAudience": "Aria"
+  },
+  {
+    "index": 19,
+    "voice": "barista",
+    "user": "Aria's picked up both coffees.",
+    "assistant": "Thanks, Sam. Leo's hot oat latte is next.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  },
+  {
+    "index": 20,
+    "voice": "Leo",
+    "user": "Actually, I need to go. Please cancel my order.",
+    "assistant": "No problem, Leo. Your order is cancelled. Have a good day!",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Leo"
+  },
+  {
+    "index": 21,
+    "voice": "barista",
+    "user": "Mia's Americano is ready.",
+    "assistant": "Mia, your iced Americano is ready to pick up.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Mia"
+  },
+  {
+    "index": 22,
+    "voice": "barista",
+    "user": "Mia's picked up her coffee.",
+    "assistant": "All done, Sam. No orders waiting.",
+    "userAudience": "CafeOS",
+    "assistantAudience": "Sam"
+  }
+]

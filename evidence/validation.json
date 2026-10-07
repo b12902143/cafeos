@@ -1,0 +1,55 @@
+{
+  "preparedAt": "2026-10-05 Asia/Taipei",
+  "status": "prepared locally; no uploads or submissions",
+  "entry": {
+    "size": 1,
+    "track": "Global Online Track",
+    "theme": "Workplace AI"
+  },
+  "proposal": {
+    "pages": 17,
+    "filename": "b12902143_CN_league.pdf",
+    "sizeBytes": 575135,
+    "visualQA": "17-page PDF rendered after cleanup; text bounds verified. Source footers, page numbers, corner branding and redundant captions removed. References, author details, link fields and substantive limits retained.",
+    "links": "GitHub and YouTube intentionally deferred by author.",
+    "revision": "Removed peripheral small print at the author's request."
+  },
+  "film": {
+    "durationSeconds": 166.016,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 4980,
+    "decodedWithoutErrors": true,
+    "integratedLufs": -18.21,
+    "truePeakDbtp": -2.01,
+    "engineSnapshots": 56,
+    "usedVoiceClips": 43,
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "scope": "Authored simulation; prerecorded synthetic voices; no live latency claim."
+  },
+  "speech": {
+    "generatedClips": 46,
+    "hashesVerified": true,
+    "transcriptionsChecked": 46,
+    "notes": "Punctuation/case and the homophonic spelling Aria/Arya vary in ASR."
+  },
+  "tests": {
+    "passed": 10,
+    "failed": 0,
+    "installedFromLockfileOffline": true,
+    "scope": "Transactions and actual local WebSocket/restart integration in staged source package."
+  },
+  "consent": {
+    "pages": 1,
+    "signed": false,
+    "identityNumberIncluded": false,
+    "format": "Typeset copy of original paragraph text; original DOCX also included."
+  },
+  "pendingAtAuthorsRequest": [
+    "GitHub upload and final-slide link",
+    "Unlisted YouTube upload and final-slide link",
+    "Personal consent signature and identity/date fields",
+    "Competition and COOL submission"
+  ]
+}
