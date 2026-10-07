@@ -1,6 +1,6 @@
 {
   "preparedAt": "2026-10-05 Asia/Taipei",
-  "status": "Approved 2:58 cut with narrated introduction; updated source prepared for GitHub; new YouTube upload pending confirmation; competition and COOL not submitted",
+  "status": "Approved 2:58 cut with narrated introduction published to unlisted YouTube; source updated on public GitHub; competition and COOL not submitted",
   "entry": {
     "size": 1,
     "track": "Global Online Track",
@@ -9,13 +9,13 @@
   "proposal": {
     "pages": 17,
     "filename": "b12902143_CN_league.pdf",
-    "sizeBytes": 575503,
+    "sizeBytes": 575511,
     "visualQA": "17-page PDF rendered after cleanup; text bounds verified. Source footers, page numbers, corner branding and redundant captions removed. References, author details, link fields and substantive limits retained.",
     "links": {
       "github": "https://github.com/b12902143/cafeos",
-      "youtube": "https://youtu.be/J7bS7TjYap4"
+      "youtube": "https://youtu.be/Ko5RQ8OMbwY"
     },
-    "revision": "Real GitHub and YouTube links added to final slide; PDF links are clickable. Peripheral small print remains removed."
+    "revision": "New narrated demo URL added to final slide; PDF links are clickable. Peripheral small print remains removed."
   },
   "film": {
     "durationSeconds": 178,
@@ -61,7 +61,7 @@
     "Personal review and signing of consent",
     "Competition and COOL submission"
   ],
-  "updatedAt": "2026-10-07T19:37:25+08:00",
+  "updatedAt": "2026-10-07T19:55:31+08:00",
   "uploads": {
     "github": {
       "url": "https://github.com/b12902143/cafeos",
@@ -69,13 +69,14 @@
       "verified": true
     },
     "youtube": {
-      "url": "https://youtu.be/J7bS7TjYap4",
+      "url": "https://youtu.be/Ko5RQ8OMbwY",
       "visibility": "unlisted",
       "hdProcessingComplete": true,
       "copyrightCheck": "No issues found",
       "verified": true,
-      "revision": "Previous 2:46 cut without narrated introduction; updated cut upload not yet confirmed"
+      "revision": "2:58 cut with 15-second narrated introduction; YouTube displays 2:59",
+      "published": true
     },
-    "verifiedAt": "2026-10-07T19:09:02+08:00"
+    "verifiedAt": "2026-10-07T19:55:31+08:00"
   }
 }
