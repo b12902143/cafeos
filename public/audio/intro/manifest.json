@@ -1,0 +1,20 @@
+{
+  "text": "Meet CafeOS, a voice assistant for busy cafés. Customers and staff can speak or use their own screens at the same time. Orders, preparation steps, and inventory stay in sync. Let’s see it in action.",
+  "voice": "assistant",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "referenceOrigin": "Original synthetic voice used in the existing demo",
+  "audio": "audio/intro/narration.wav",
+  "durationInFrames": 450,
+  "fps": 30,
+  "durationSeconds": 12.52,
+  "rawSha256": "e734147b4afaee936231d20d244fd88f001597744ca9f39d49cf1f84b6436c18",
+  "sha256": "c008289a52b59e2f7f897abcf6bbb2def48dbe1c03ba3df28f043ac2d6ff3b98",
+  "processing": {
+    "trimStart": 0.68,
+    "trimEnd": 13.2,
+    "loudnessTargetLufs": -18,
+    "speedChanged": false
+  },
+  "transcription": "Meet Cafe OS, a voice assistant for busy cafes. Customers and staff can speak or use their own screens at the same time. Orders, preparation steps, and inventory stay in sync. Let's see it in action.",
+  "asrModel": "Qwen/Qwen3-ASR-1.7B"
+}

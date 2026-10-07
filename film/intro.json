@@ -1,0 +1,9 @@
+{
+  "text": "Meet CafeOS, a voice assistant for busy cafés. Customers and staff can speak or use their own screens at the same time. Orders, preparation steps, and inventory stay in sync. Let’s see it in action.",
+  "voice": "assistant",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "referenceOrigin": "Original synthetic voice used in the existing demo",
+  "audio": "audio/intro/narration.wav",
+  "durationInFrames": 450,
+  "fps": 30
+}

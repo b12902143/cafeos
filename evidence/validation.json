@@ -1,6 +1,6 @@
 {
   "preparedAt": "2026-10-05 Asia/Taipei",
-  "status": "GitHub source and unlisted YouTube video uploaded; competition and COOL not submitted",
+  "status": "Approved 2:58 cut with narrated introduction; updated source prepared for GitHub; new YouTube upload pending confirmation; competition and COOL not submitted",
   "entry": {
     "size": 1,
     "track": "Global Online Track",
@@ -18,24 +18,32 @@
     "revision": "Real GitHub and YouTube links added to final slide; PDF links are clickable. Peripheral small print remains removed."
   },
   "film": {
-    "durationSeconds": 166.016,
+    "durationSeconds": 178,
     "width": 1920,
     "height": 1080,
     "fps": 30,
-    "frames": 4980,
+    "frames": 5340,
     "decodedWithoutErrors": true,
-    "integratedLufs": -18.21,
-    "truePeakDbtp": -2.01,
+    "integratedLufs": -18.28,
+    "truePeakDbtp": -1.97,
     "engineSnapshots": 56,
-    "usedVoiceClips": 43,
+    "usedVoiceClips": 44,
     "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
-    "scope": "Authored simulation; prerecorded synthetic voices; no live latency claim."
+    "scope": "Authored simulation with prerecorded synthetic voices. Intro illustrates simultaneous actions; the unchanged 163-second service scenario uses engine-generated snapshots. No live latency claim.",
+    "introDurationSeconds": 15,
+    "sha256": "d231c3c7dd7a6fe7262f0f6cbb597f053f73305d3d35a7695d85a10e3a0558f2"
   },
   "speech": {
-    "generatedClips": 46,
+    "generatedClips": 47,
     "hashesVerified": true,
-    "transcriptionsChecked": 46,
-    "notes": "Punctuation/case and the homophonic spelling Aria/Arya vary in ASR."
+    "transcriptionsChecked": 47,
+    "notes": "Punctuation/case and the homophonic spelling Aria/Arya vary in ASR.",
+    "intro": {
+      "durationSeconds": 12.52,
+      "speedChanged": false,
+      "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "transcriptionMatched": true
+    }
   },
   "tests": {
     "passed": 10,
@@ -53,7 +61,7 @@
     "Personal review and signing of consent",
     "Competition and COOL submission"
   ],
-  "updatedAt": "2026-10-07T19:09:02+08:00",
+  "updatedAt": "2026-10-07T19:37:25+08:00",
   "uploads": {
     "github": {
       "url": "https://github.com/b12902143/cafeos",
@@ -65,7 +73,8 @@
       "visibility": "unlisted",
       "hdProcessingComplete": true,
       "copyrightCheck": "No issues found",
-      "verified": true
+      "verified": true,
+      "revision": "Previous 2:46 cut without narrated introduction; updated cut upload not yet confirmed"
     },
     "verifiedAt": "2026-10-07T19:09:02+08:00"
   }

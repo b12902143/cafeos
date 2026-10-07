@@ -1,6 +1,6 @@
 # CafeOS
 
-[Watch the 2:46 scenario demo on YouTube](https://youtu.be/J7bS7TjYap4) · [Source repository](https://github.com/b12902143/cafeos)
+[Earlier 2:46 cut on YouTube (new introduction pending upload)](https://youtu.be/J7bS7TjYap4) · [Source repository](https://github.com/b12902143/cafeos)
 
 Voice guidance for a connected cafe. Customers order and revise drinks; staff receive recipe guidance and approve late changes. A deterministic transaction engine owns orders, ingredient reservations, versions and retry receipts.
 
@@ -19,9 +19,9 @@ Free play exposes manual ordering, preparation, cancellation and collection. A s
 
 ## Complete scenario film
 
-The separately supplied `CafeOS_demo.mp4` is the primary presentation: 1920 × 1080, 30 fps, 2 minutes 46 seconds. Its 23 scripted turns cover three orders, including partial completion, customer pickup, cancellation and an empty active queue. Its 56 state snapshots are executed using the real store engine. The movie is an authored animation with prerecorded synthetic voices, and its pacing is not a live latency measurement.
+The separately supplied `CafeOS_demo.mp4` is the primary presentation: 1920 × 1080, 30 fps, 2 minutes 58 seconds, including a 15-second narrated introduction about simultaneous customer and staff interaction. The following service scenario has 23 scripted turns cover three orders, including partial completion, customer pickup, cancellation and an empty active queue. The service scenario uses 56 state snapshots executed using the real store engine; the introductory animation illustrates the shared-state concept. The movie is an authored animation with prerecorded synthetic voices, and its pacing is not a live latency measurement.
 
-The editable animation source is in `film/`. All dialogue is in `film/dialogue.json`; every utterance has an explicit recipient. Source recordings are in `public/audio/submission`, with text, model and SHA-256 manifests. VoiceDesign generated five original synthetic references, then Qwen3-TTS Base spoke the supplied lines. No real person's voice or earlier restricted-license audio is used in this package.
+The editable animation source is in `film/`. Intro narration and timing are in `film/intro.json`, with audio and its transcription check in `public/audio/intro/`. Service dialogue is in `film/dialogue.json`; every utterance has an explicit recipient. Source recordings are in `public/audio/submission`, with text, model and SHA-256 manifests. VoiceDesign generated five original synthetic references, then Qwen3-TTS Base spoke the supplied lines. No real person's voice or earlier restricted-license audio is used in this package.
 
 To reproduce the submitted cut, install FFmpeg and Python 3, then:
 
